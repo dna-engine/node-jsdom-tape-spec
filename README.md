@@ -8,5 +8,7 @@
 
 [dnajs.org](http://dnajs.org)
 
+![screenshot](screenshot.png)
+
 ---
 [MIT License](LICENSE.txt)

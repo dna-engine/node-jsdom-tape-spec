@@ -4,10 +4,9 @@
 
 // Run:
 //    $ cd dnajs-node-jsdom-tape-spec
-//    $ npm update
-//    $ node spec.js
+//    $ npm test
 
-var html = `
+const html = `
 <!doctype html>
 <html lang=en>
    <head>
@@ -20,31 +19,31 @@ var html = `
 </html>
 `;
 
-var document = require('jsdom').jsdom(html);
-var window =   document.defaultView;
-var $ =        require('jquery')(window);
-var dna =      require('dna.js')(window, $);
-var app =      require('./app.js')(window, $, dna);
-var spec =     require('tape');
-var colorize = require('tap-spec');
+const document = require('jsdom').jsdom(html);
+const window =   document.defaultView;
+const $ =        require('jquery')(window);
+const dna =      require('dna.js')(window, $);
+const app =      require('./app.js')(window, $, dna);
+const spec =     require('tape');
+const colorize = require('tap-spec');
 spec.createStream().pipe(colorize()).pipe(process.stdout);
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 spec('Utility function dna.array.fromMap()', (assert) => {
-   var does = 'converts a map into an array of maps';
-   var map = { a: { word: 'Ant' }, b: { word: 'Bat' } };
-   var actual = dna.array.fromMap(map, 'letter');
-   var expected = [{ word: 'Ant', letter: 'a' }, { word: 'Bat', letter: 'b' }];
+   const does = 'converts a map into an array of maps';
+   const map = { a: { word: 'Ant' }, b: { word: 'Bat' } };
+   const actual = dna.array.fromMap(map, 'letter');
+   const expected = [{ word: 'Ant', letter: 'a' }, { word: 'Bat', letter: 'b' }];
    assert.deepEqual(actual, expected, does);
    assert.end();
    });
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 spec('Lunch', (assert) => {
-   var does = 'is ording and eating bulgogi';
+   const does = 'is ording and eating bulgogi';
    app.doLunch();
-   var actual = dna.getModel('task');
-   var expected = [{ title: 'Order bulgogi' }, { title: 'Eat bulgogi' }];
+   const actual = dna.getModel('task');
+   const expected = [{ title: 'Order bulgogi' }, { title: 'Eat bulgogi' }];
    assert.deepEqual(actual, expected, does);
    assert.end();
    });

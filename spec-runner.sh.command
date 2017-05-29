@@ -6,17 +6,22 @@
 # To make this file runnable:
 #    $ chmod +x *.sh.command
 
-update() {
-    which node || alert "Need to install node: https://nodejs.org"
-    echo "Node.js $(node --version)"
-    npm update
-    }
+info() {
+   pwd
+   echo
+   echo "Node.js:"
+   which node || { echo "Need to install Node.js: https://nodejs.org"; exit; }
+   node --version
+   test -d node_modules || npm install
+   npm update
+   npm outdated
+   echo
+   }
 
-cd $(dirname $0)
 echo
 echo "dnajs-node-jsdom-tape-spec"
 echo "=========================="
-pwd
-update
-node spec.js
+cd $(dirname $0)
+info
+npm test
 echo

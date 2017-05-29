@@ -1,10 +1,9 @@
-### dnajs-node-jsdom-tape-spec
-
+# dnajs-node-jsdom-tape-spec
+<img src=https://raw.githubusercontent.com/dnajs/dna.js/master/website/static/graphics/dnajs-logo.png
+   align=right width=160 alt=logo>
 *Sample dna.js project running on Node.js and jsdom executing tape test cases*
 
----
-<img src=https://raw.githubusercontent.com/dnajs/dna.js/master/website/static/graphics/dnajs-logo.png
-   width=100 align=right alt=logo>
+[![Build Status](https://travis-ci.org/dnajs/dnajs-node-jsdom-tape-spec.svg)](https://travis-ci.org/dnajs/dnajs-node-jsdom-tape-spec)
 
 [dnajs.org](http://dnajs.org)
 

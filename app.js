@@ -8,10 +8,10 @@ var app = {
       },
    init: function(thisWindow, this$, thisDna) {
       window = thisWindow;
-      $ = this$,
+      $ = this$;
       dna = thisDna;
       return app;
       }
-   }
+   };
 
 module.exports = app.init;  //var app = require('./app.js')(window, $, dna);

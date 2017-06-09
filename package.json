@@ -10,16 +10,16 @@
    "docs":        "http://dnajs.org/docs",
    "keywords":    ["dna.js", "node", "jsdom", "tape", "javascript"],
    "author":      { "name": "Center Key", "url": "http://centerkey.com" },
+   "scripts": {
+      "pretest": "jshint *.js",
+      "test":    "tape spec.js"
+   },
    "jshintConfig": {
       "esversion": 6,
       "strict":    "implied",
       "node":      true,
       "undef":     true,
       "unused":    true
-   },
-   "scripts": {
-      "pretest": "jshint *.js",
-      "test":    "tape spec.js"
    },
    "dependencies": {
       "dna.js": "~1.2"

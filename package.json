@@ -34,7 +34,7 @@
       "dna.js": "~1.3"
    },
    "devDependencies": {
-      "jsdom": "~11.2",
+      "jsdom": "~11.3",
       "jshint": "~2.9",
       "tap-spec": "~4.1",
       "tape": "~4.8"

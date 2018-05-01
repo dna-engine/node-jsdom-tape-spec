@@ -14,7 +14,7 @@ const html = `
       <title>Specification Runner</title>
    </head>
    <body>
-      <p id=task class=dna-template>~~title~~</p>
+      <h2 id=task class=dna-template>~~title~~</h2>
    </body>
 </html>
 `;
@@ -32,7 +32,7 @@ spec.createStream().pipe(colorize()).pipe(process.stdout);
 spec('Utility function dna.array.fromMap()', (assert) => {
    const does = 'converts a map into an array of maps';
    const map = { a: { word: 'Ant' }, b: { word: 'Bat' } };
-   const actual =   dna.array.fromMap(map, 'letter');
+   const actual =   dna.array.fromMap(map, { key: 'letter' });
    const expected = [{ word: 'Ant', letter: 'a' }, { word: 'Bat', letter: 'b' }];
    assert.deepEqual(actual, expected, does);
    assert.end();

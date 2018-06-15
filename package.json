@@ -31,13 +31,13 @@
       "node": true
    },
    "dependencies": {
-      "dna.js": "~1.3",
+      "dna.js": "~1.4",
       "jquery": "~3.3"
    },
    "devDependencies": {
-      "jsdom": "~11.10",
+      "jsdom": "~11.11",
       "jshint": "~2.9",
-      "tap-spec": "~4.1",
+      "tap-spec": "~5.0",
       "tape": "~4.9"
    }
 }

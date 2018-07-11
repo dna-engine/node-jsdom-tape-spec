@@ -5,7 +5,7 @@
 
 [![Build Status](https://travis-ci.org/dnajs/dnajs-node-jsdom-tape-spec.svg)](https://travis-ci.org/dnajs/dnajs-node-jsdom-tape-spec)
 
-[dnajs.org](http://dnajs.org)
+[dnajs.org](https://dnajs.org)
 
 ![screenshot](screenshot.png)
 

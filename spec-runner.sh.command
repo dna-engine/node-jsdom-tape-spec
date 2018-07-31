@@ -6,8 +6,11 @@
 # To make this file runnable:
 #    $ chmod +x *.sh.command
 
-info() {
+projectHome=$(cd $(dirname $0); pwd)
+
+setupTools() {
    # Check for Node.js installation and download project dependencies
+   cd $projectHome
    pwd
    echo
    echo "Node.js:"
@@ -19,10 +22,15 @@ info() {
    echo
    }
 
+runSpecs() {
+   cd $projectHome
+   echo "Specifications:"
+   npm test
+   echo
+   }
+
 echo
 echo "dnajs-node-jsdom-tape-spec"
 echo "=========================="
-cd $(dirname $0)
-info
-npm test
-echo
+setupTools
+runSpecs

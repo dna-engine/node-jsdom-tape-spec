@@ -4,7 +4,7 @@
    "description": "Sample dna.js project running on Node.js and jsdom executing tape test cases",
    "license": "MIT",
    "main": "app.js",
-   "repository": "dnajs/dnajs-node-jsdom-tape-spec.git",
+   "repository": "github:dnajs/dnajs-node-jsdom-tape-spec.git",
    "homepage": "https://github.com/dnajs/dnajs-node-jsdom-tape-spec",
    "bugs": "https://github.com/dnajs/dnajs-node-jsdom-tape-spec/issues",
    "docs": "https://dnajs.org/docs",

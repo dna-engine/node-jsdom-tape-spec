@@ -4,7 +4,7 @@
    "description": "Sample dna.js project running on Node.js and jsdom executing tape test cases",
    "license": "MIT",
    "main": "app.js",
-   "repository": "github:dnajs/dnajs-node-jsdom-tape-spec.git",
+   "repository": "github:dnajs/dnajs-node-jsdom-tape-spec",
    "homepage": "https://github.com/dnajs/dnajs-node-jsdom-tape-spec",
    "bugs": "https://github.com/dnajs/dnajs-node-jsdom-tape-spec/issues",
    "docs": "https://dnajs.org/docs",
@@ -35,7 +35,7 @@
       "jquery": "~3.3"
    },
    "devDependencies": {
-      "jsdom": "~11.12",
+      "jsdom": "~12.0",
       "jshint": "~2.9",
       "tap-spec": "~5.0",
       "tape": "~4.9"

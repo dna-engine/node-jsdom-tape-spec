@@ -13,7 +13,7 @@ setupTools() {
    cd $projectHome
    echo
    echo $banner
-   echo $(echo $banner | sed -e "s/./=/g")
+   echo $(echo $banner | sed s/./=/g)
    pwd
    echo
    echo "Node.js:"

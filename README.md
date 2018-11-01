@@ -3,7 +3,7 @@
 
 _Sample dna.js project running on Node.js and jsdom executing tape test cases_
 
-[![Build Status](https://travis-ci.org/dnajs/dnajs-node-jsdom-tape-spec.svg)](https://travis-ci.org/dnajs/dnajs-node-jsdom-tape-spec)
+[![Build](https://travis-ci.org/dnajs/dnajs-node-jsdom-tape-spec.svg)](https://travis-ci.org/dnajs/dnajs-node-jsdom-tape-spec)
 
 [dnajs.org](https://dnajs.org)
 

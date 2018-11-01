@@ -8,6 +8,7 @@
    "homepage": "https://github.com/dnajs/dnajs-node-jsdom-tape-spec",
    "bugs": "https://github.com/dnajs/dnajs-node-jsdom-tape-spec/issues",
    "docs": "https://dnajs.org/docs",
+   "author": "Center Key (https://centerkey.com)",
    "keywords": [
       "dna.js",
       "node",
@@ -15,10 +16,6 @@
       "tape",
       "javascript"
    ],
-   "author": {
-      "name": "Center Key",
-      "url": "https://centerkey.com"
-   },
    "scripts": {
       "pretest": "jshint *.js",
       "test": "tape spec.js"
@@ -35,7 +32,7 @@
       "jquery": "~3.3"
    },
    "devDependencies": {
-      "jsdom": "~12.2",
+      "jsdom": "~13.0",
       "jshint": "~2.9",
       "tap-spec": "~5.0",
       "tape": "~4.9"

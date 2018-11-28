@@ -16,16 +16,16 @@
       "tape",
       "javascript"
    ],
-   "scripts": {
-      "pretest": "jshint *.js",
-      "test": "tape spec.js"
-   },
    "jshintConfig": {
       "esversion": 6,
       "strict": "implied",
       "undef": true,
       "unused": true,
       "node": true
+   },
+   "scripts": {
+      "pretest": "jshint *.js",
+      "test": "tape spec.js"
    },
    "dependencies": {
       "dna.js": "~1.4",

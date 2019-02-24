@@ -32,10 +32,10 @@
       "jquery": "~3.3"
    },
    "devDependencies": {
-      "jsdom": "~13.1",
-      "jshint": "~2.9",
+      "jsdom": "~13.2",
+      "jshint": "~2.10",
       "request": "~2.88",
       "tap-spec": "~5.0",
-      "tape": "~4.9"
+      "tape": "~4.10"
    }
 }

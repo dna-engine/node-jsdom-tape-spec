@@ -14,4 +14,4 @@ const app = {
       }
    };
 
-module.exports = app.init;  //var app = require('./app.js')(window, $, dna);
+module.exports = app.init;  //const app = require('./app.js')(window, $, dna);

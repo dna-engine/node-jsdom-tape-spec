@@ -34,8 +34,8 @@
    },
    "devDependencies": {
       "canvas": "~2.6",
-      "jsdom": "~15.2",
-      "jshint": "~2.10",
+      "jsdom": "~16.2",
+      "jshint": "~2.11",
       "tap-spec": "~5.0",
       "tape": "~4.13"
    }

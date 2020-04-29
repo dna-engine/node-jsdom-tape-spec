@@ -30,7 +30,7 @@
    },
    "dependencies": {
       "dna.js": "~1.6",
-      "jquery": "~3.4"
+      "jquery": "~3.5"
    },
    "devDependencies": {
       "canvas": "~2.6",

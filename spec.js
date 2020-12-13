@@ -31,7 +31,7 @@ spec.createStream().pipe(colorize()).pipe(process.stdout);
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 spec('Utility function dna.array.fromMap()', (assert) => {
    const does = 'converts a map into an array of maps';
-   const map = { a: { word: 'Ant' }, b: { word: 'Bat' } };
+   const map =      { a: { word: 'Ant' }, b: { word: 'Bat' } };
    const actual =   dna.array.fromMap(map, { key: 'letter' });
    const expected = [{ word: 'Ant', letter: 'a' }, { word: 'Bat', letter: 'b' }];
    assert.deepEqual(actual, expected, does);

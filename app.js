@@ -11,7 +11,7 @@ const app = {
       $ = this$;
       dna = thisDna;
       return app;
-      }
+      },
    };
 
-module.exports = app.init;  //const app = require('./app.js')(window, $, dna);
+module.exports = { app };  //const app = require('./app.js')(window, $, dna);

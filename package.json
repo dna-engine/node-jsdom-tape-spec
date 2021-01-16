@@ -25,8 +25,8 @@
       "node": true
    },
    "scripts": {
-      "pretest": "jshint *.js",
-      "test": "tape spec.js"
+      "pretest": "jshint *.js spec/*.js",
+      "test": "tape spec/*.js"
    },
    "dependencies": {
       "dna.js": "~1.7",

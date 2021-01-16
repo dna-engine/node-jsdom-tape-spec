@@ -23,7 +23,7 @@ const { JSDOM } = require('jsdom');
 const window =    new JSDOM(html).window;
 const $ =         require('jquery')(window);
 const { dna } =   require('dna.js');
-const { app } =   require('./app.js');
+const { app } =   require('../app.js');
 const spec =      require('tape');
 const colorize =  require('tap-spec');
 dna.initGlobal(window, $);

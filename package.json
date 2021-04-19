@@ -30,11 +30,11 @@
    },
    "dependencies": {
       "dna.js": "~1.7",
-      "jquery": "~3.5"
+      "jquery": "~3.6"
    },
    "devDependencies": {
-      "canvas": "~2.6",
-      "jsdom": "~16.4",
+      "canvas": "~2.7",
+      "jsdom": "~16.5",
       "jshint": "~2.12",
       "tap-spec": "~5.0",
       "tape": "~5.2"

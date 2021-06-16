@@ -33,9 +33,9 @@
       "jquery": "~3.6"
    },
    "devDependencies": {
-      "canvas": "~2.7",
-      "jsdom": "~16.5",
-      "jshint": "~2.12",
+      "canvas": "~2.8",
+      "jsdom": "~16.6",
+      "jshint": "~2.13",
       "tap-spec": "~5.0",
       "tape": "~5.2"
    }

@@ -26,10 +26,10 @@
    },
    "scripts": {
       "pretest": "jshint *.js spec/*.js",
-      "test": "tape spec/*.js"
+      "test": "tape spec/*.spec.js"
    },
    "dependencies": {
-      "dna.js": "~1.7",
+      "dna.js": "~1.8",
       "jquery": "~3.6"
    },
    "devDependencies": {

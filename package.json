@@ -25,7 +25,7 @@
       "node": true
    },
    "scripts": {
-      "pretest": "jshint *.js spec/*.js",
+      "pretest": "jshint . --exclude node_modules,build,dist",
       "test": "tape spec/*.spec.js"
    },
    "dependencies": {

@@ -26,7 +26,7 @@
       "node": true
    },
    "scripts": {
-      "pretest": "jshint . --exclude node_modules",
+      "pretest": "w3c-html-validator && jshint . --exclude node_modules",
       "test": "tape spec/*.spec.js"
    },
    "dependencies": {
@@ -38,6 +38,7 @@
       "jsdom": "~16.6",
       "jshint": "~2.13",
       "tap-spec": "~5.0",
-      "tape": "~5.3"
+      "tape": "~5.3",
+      "w3c-html-validator": "~0.7"
    }
 }

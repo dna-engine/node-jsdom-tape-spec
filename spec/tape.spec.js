@@ -6,28 +6,30 @@
 //    $ cd dnajs-node-jsdom-tape-spec
 //    $ npm test
 
-const html = `
-<!doctype html>
-<html lang=en>
-   <head>
-      <meta charset=utf-8>
-      <title>Specification Runner</title>
-   </head>
-   <body>
-      <h2 id=task class=dna-template>~~title~~</h2>
-   </body>
-</html>
-`;
 
-const { JSDOM } = require('jsdom');
-const window =    new JSDOM(html).window;
-const $ =         require('jquery')(window);
-const { dna } =   require('dna.js');
-const { app } =   require('../app.js');
-const spec =      require('tape');
-const colorize =  require('tap-spec');
-dna.initGlobal(window, $);
-app.init(window, $, dna);
+import { JSDOM } from 'jsdom';
+import jQuery    from 'jquery';
+import { dna }   from 'dna.js';
+import spec      from 'tape';
+import colorize  from 'tap-spec';
+import { app }   from '../app.js';
+
+const html = `
+   <!doctype html>
+   <html lang=en>
+      <head>
+         <meta charset=utf-8>
+         <title>Specification Runner</title>
+      </head>
+      <body>
+         <h2 id=task class=dna-template>~~title~~</h2>
+      </body>
+   </html>
+   `;
+const dom = new JSDOM(html);
+const $ = jQuery(dom.window);
+dna.initGlobal(dom.window, $);
+app.init(dom.window, $, dna);
 spec.createStream().pipe(colorize()).pipe(process.stdout);
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////

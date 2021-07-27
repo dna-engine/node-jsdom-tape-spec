@@ -8,10 +8,10 @@ const app = {
       },
    init: (thisWindow, this$, thisDna) => {
       window = thisWindow;
-      $ = this$;
-      dna = thisDna;
+      $ =      this$;
+      dna =    thisDna;
       return app;
       },
    };
 
-module.exports = { app };  //const app = require('./app.js')(window, $, dna);
+export { app };  //app.init(dom.window, $, dna);

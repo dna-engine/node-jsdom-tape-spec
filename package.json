@@ -30,12 +30,12 @@
       "test": "tape spec/*.spec.js"
    },
    "dependencies": {
-      "dna.js": "~1.8",
+      "dna.js": "~1.9",
       "jquery": "~3.6"
    },
    "devDependencies": {
       "canvas": "~2.8",
-      "jsdom": "~16.6",
+      "jsdom": "~17.0",
       "jshint": "~2.13",
       "tap-spec": "~5.0",
       "tape": "~5.3",

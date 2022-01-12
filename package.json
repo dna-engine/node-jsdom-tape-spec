@@ -35,10 +35,10 @@
    },
    "devDependencies": {
       "canvas": "~2.8",
-      "jsdom": "~18.0",
+      "jsdom": "~19.0",
       "jshint": "~2.13",
       "tap-spec": "~5.0",
-      "tape": "~5.3",
+      "tape": "~5.4",
       "w3c-html-validator": "~0.8"
    }
 }

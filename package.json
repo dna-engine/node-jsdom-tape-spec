@@ -30,15 +30,15 @@
       "test": "tape spec/*.spec.js"
    },
    "dependencies": {
-      "dna.js": "~1.9",
+      "dna.js": "~2.0",
       "jquery": "~3.6"
    },
    "devDependencies": {
       "canvas": "~2.9",
-      "jsdom": "~19.0",
+      "jsdom": "~20.0",
       "jshint": "~2.13",
       "tap-spec": "~5.0",
       "tape": "~5.5",
-      "w3c-html-validator": "~1.0"
+      "w3c-html-validator": "~1.1"
    }
 }

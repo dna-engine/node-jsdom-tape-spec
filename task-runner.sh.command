@@ -1,12 +1,12 @@
 #!/bin/bash
-##############################
-# dnajs-node-jsdom-tape-spec #
-##############################
+########################
+# node-jsdom-tape-spec #
+########################
 
 # To make this file runnable:
 #     $ chmod +x *.sh.command
 
-banner="dnajs-node-jsdom-tape-spec"
+banner="node-jsdom-tape-spec"
 projectHome=$(cd $(dirname $0); pwd)
 
 setupTools() {

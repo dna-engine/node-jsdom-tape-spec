@@ -1,14 +1,14 @@
 ////////////////////////////////
-// dnajs-node-jsdom-tape-spec //
+// node-jsdom-tape-spec //
 ////////////////////////////////
 
 // Run:
-//    $ cd dnajs-node-jsdom-tape-spec
+//    $ cd node-jsdom-tape-spec
 //    $ npm test
 
 // Imports
 import { app }   from '../app.js';
-import { dna }   from 'dna.js';
+import { dna }   from 'dna-engine';
 import { JSDOM } from 'jsdom';
 import colorize  from 'tap-spec';
 import jQuery    from 'jquery';

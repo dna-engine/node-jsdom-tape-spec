@@ -1,17 +1,17 @@
 {
-   "name": "dnajs-node-jsdom-tape-spec",
+   "name": "node-jsdom-tape-spec",
    "version": "1.0.0",
-   "description": "Sample dna.js project running on Node.js and jsdom executing tape test cases",
+   "description": "Sample dna-engine project running on Node.js and jsdom executing tape test cases",
    "license": "MIT",
    "type": "module",
    "module": "app.js",
-   "repository": "github:dnajs/dnajs-node-jsdom-tape-spec",
-   "homepage": "https://github.com/dnajs/dnajs-node-jsdom-tape-spec",
-   "bugs": "https://github.com/dnajs/dnajs-node-jsdom-tape-spec/issues",
-   "docs": "https://dnajs.org/docs",
+   "repository": "github:dna-engine/node-jsdom-tape-spec",
+   "homepage": "https://github.com/dna-engine/node-jsdom-tape-spec",
+   "bugs": "https://github.com/dna-engine/node-jsdom-tape-spec/issues",
+   "docs": "https://dna-engine.org/docs",
    "author": "Center Key (https://centerkey.com)",
    "keywords": [
-      "dna.js",
+      "dna-engine",
       "node",
       "jsdom",
       "tape",
@@ -30,7 +30,7 @@
       "test": "tape spec/*.spec.js"
    },
    "dependencies": {
-      "dna.js": "~2.1",
+      "dna-engine": "~2.2",
       "jquery": "~3.6"
    },
    "devDependencies": {

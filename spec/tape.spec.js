@@ -7,16 +7,16 @@
 //    $ npm test
 
 // Imports
-import colorize         from 'tap-spec';
-import jQuery           from 'jquery';
-import spec             from 'tape';
-import { dna }          from 'dna.js';
-import { JSDOM }        from 'jsdom';
-import { readFileSync } from 'fs';
-import { app }          from '../app.js';
+import { app }   from '../app.js';
+import { dna }   from 'dna.js';
+import { JSDOM } from 'jsdom';
+import colorize  from 'tap-spec';
+import jQuery    from 'jquery';
+import fs        from 'fs';
+import spec      from 'tape';
 
 // Setup
-const html = readFileSync('spec/fixtures/sample.html', 'utf8');
+const html = fs.readFileSync('spec/fixtures/sample.html', 'utf-8');
 const dom =  new JSDOM(html);
 const $ =    jQuery(dom.window);
 dna.initGlobal(dom.window, $);

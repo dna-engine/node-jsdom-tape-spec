@@ -30,7 +30,7 @@
       "test": "tape spec/*.spec.js"
    },
    "dependencies": {
-      "dna.js": "~2.0",
+      "dna.js": "~2.1",
       "jquery": "~3.6"
    },
    "devDependencies": {

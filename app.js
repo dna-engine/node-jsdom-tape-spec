@@ -1,17 +1,16 @@
 // To Do Application
-let window, $, dna;
+let window, dna;
 
 const app = {
-   doLunch: () => {
+   doLunch() {
       dna.clone('task', { title: 'Order bulgogi' });
       dna.clone('task', { title: 'Eat bulgogi' });
       },
-   init: (thisWindow, this$, thisDna) => {
+   init(thisWindow, thisDna) {
       window = thisWindow;
-      $ =      this$;
       dna =    thisDna;
       return app;
       },
    };
 
-export { app };  //app.init(dom.window, $, dna);
+export { app };  //app.init(dom.window, dna);

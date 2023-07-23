@@ -7,19 +7,21 @@
 //    $ npm test
 
 // Imports
-import { app }   from '../app.js';
 import { dna }   from 'dna-engine';
 import { JSDOM } from 'jsdom';
-import colorize  from 'tap-spec';
 import fs        from 'fs';
 import spec      from 'tape';
+import faucet    from 'faucet';
+
+// Modules
+import { app }   from '../app.js';
 
 // Setup
 const html = fs.readFileSync('spec/fixtures/sample.html', 'utf-8');
 const dom =  new JSDOM(html);
 dna.initGlobal(dom.window);
 app.init(dom.window, dna);
-spec.createStream().pipe(colorize()).pipe(process.stdout);
+spec.createStream().pipe(faucet()).pipe(process.stdout);
 
 ////////////////////////////////////////////////////////////////////////////////
 spec('Utility function dna.array.fromMap()', (assert) => {

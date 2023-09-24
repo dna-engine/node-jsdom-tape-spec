@@ -1,11 +1,14 @@
 {
    "name": "node-jsdom-tape-spec",
    "version": "1.0.0",
-   "description": "Sample dna-engine project running on Node.js and jsdom executing tape test cases",
+   "description": "Sample dna-engine project running on Node.js and jsdom executing tape specification cases",
    "license": "MIT",
    "type": "module",
    "module": "app.js",
-   "repository": "github:dna-engine/node-jsdom-tape-spec",
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dna-engine/node-jsdom-tape-spec.git"
+   },
    "homepage": "https://github.com/dna-engine/node-jsdom-tape-spec",
    "bugs": "https://github.com/dna-engine/node-jsdom-tape-spec/issues",
    "docs": "https://dna-engine.org/docs",
@@ -37,7 +40,7 @@
       "faucet": "~0.0",
       "jsdom": "~22.1",
       "jshint": "~2.13",
-      "tape": "~5.6",
-      "w3c-html-validator": "~1.4"
+      "tape": "~5.7",
+      "w3c-html-validator": "~1.5"
    }
 }

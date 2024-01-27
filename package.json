@@ -33,14 +33,14 @@
       "test": "tape spec/*.spec.js"
    },
    "dependencies": {
-      "dna-engine": "~3.0"
+      "dna-engine": "~3.1"
    },
    "devDependencies": {
       "canvas": "~2.11",
       "faucet": "~0.0",
-      "jsdom": "~22.1",
+      "jsdom": "~24.0",
       "jshint": "~2.13",
       "tape": "~5.7",
-      "w3c-html-validator": "~1.5"
+      "w3c-html-validator": "~1.6"
    }
 }

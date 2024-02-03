@@ -36,7 +36,6 @@
       "dna-engine": "~3.1"
    },
    "devDependencies": {
-      "canvas": "~2.11",
       "faucet": "~0.0",
       "jsdom": "~24.0",
       "jshint": "~2.13",

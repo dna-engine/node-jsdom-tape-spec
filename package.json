@@ -33,13 +33,13 @@
       "test": "tape spec/*.spec.js"
    },
    "dependencies": {
-      "dna-engine": "~3.1"
+      "dna-engine": "~3.2"
    },
    "devDependencies": {
       "faucet": "~0.0",
       "jsdom": "~24.0",
       "jshint": "~2.13",
       "tape": "~5.7",
-      "w3c-html-validator": "~1.6"
+      "w3c-html-validator": "~1.8"
    }
 }

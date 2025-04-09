@@ -37,9 +37,9 @@
    },
    "devDependencies": {
       "faucet": "~0.0",
-      "jsdom": "~24.1",
+      "jsdom": "~26.0",
       "jshint": "~2.13",
-      "tape": "~5.8",
+      "tape": "~5.9",
       "w3c-html-validator": "~1.8"
    }
 }
